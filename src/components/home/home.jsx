@@ -11,19 +11,17 @@ const divStyle3 = { backgroundImage: 'url(' + divUrl3 + ')' };
 const Home = () => (
 
     <div>
-       <section class="fdb-block pb-0" data-block-type="contents" data-id="3" draggable="true">
+      <section class="fdb-block fp-active" data-block-type="contents" data-id="2" draggable="true">
         <div class="container">
-            <div class="row align-items-center">
-            <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
-                <img alt="image" class="img-fluid br-0" src="https://editor-latest.s3.amazonaws.com/design-blocks/block_images/img_tall.png"/>
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 col-lg-5">
+              <h1>Design Blocks</h1>
+              <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
-
-            <div class="col-12 ml-auto col-md-6 col-lg-5">
-                <h1>Design Blocks</h1>
-                <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <p><a class="btn btn-round mt-4 mb-5 mb-md-0" href="https://www.froala.com">Download</a></p>
+            <div class="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+              <img alt="image" class="img-fluid" src="https://editor-latest.s3.amazonaws.com/design-blocks/block_images/colors_wide_1.jpg"/>
             </div>
-            </div>
+          </div>
         </div>
       </section>
       <section class="fdb-block" data-block-type="contents" data-id="4" draggable="true">

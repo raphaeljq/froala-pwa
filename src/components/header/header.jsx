@@ -5,9 +5,9 @@ import { NavLink} from 'react-router-dom'
 
 const Header = () => (
 
-    <header className="bg-dark" data-block-type="headers" data-id="2">
+    <header class="transparent" data-block-type="headers" data-id="2" >
         <div className="container">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar" data-toggle="sticky-onscroll">
           <a class="navbar-brand" href="#">Never expand</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnavbar" aria-controls="mainnavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

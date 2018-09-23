@@ -3,3 +3,64 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.jumbotron {
+  background-image: url('./imgs/cafe-3537801_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: contrast(90%);
+  filter: contrast(90%);
+
+}
+
+.jumbotron {
+  text-shadow: 2px 2px 8px #000000;
+  text-align: end;
+}
+
+
+.col-fill-left {
+
+  background-image: url('./imgs/city-569093_1920.jpg')
+}
+
+.col-fill-right {
+  background-image: url('./imgs/manhattan-336708_1920.jpg')
+}
+
+.fundolegal01 {
+  background-image: url('./imgs/tree-736885_1280.jpg')
+}
+
+
+
+/* css do sticky da barra fixa no topo
+*/
+
+
+
+.transparent {
+  padding: 0.5em 0;
+  animation-name: rolou;
+  animation-duration: 3s;
+}
+
+.sticky.is-sticky {
+  animation-name: rolou;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #fff;
+  
+ 
+}
+.map {border: 0;}
+
+.avatares img {
+
+  border-radius: 100px;
+}

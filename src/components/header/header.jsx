@@ -2,13 +2,15 @@
 import React from 'react'
 //importando o componente de links
 import { NavLink} from 'react-router-dom'
+//importando imagem de logo
+import logo from '../../imgs/logo.png'
 
 const Header = () => (
 
     <header class="transparent" data-block-type="headers" data-id="2" >
         <div className="container">
         <nav class="navbar" data-toggle="sticky-onscroll">
-          <a class="navbar-brand" href="#">Never expand</a>
+          <a class="navbar-brand" href="#"><img src={logo} /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnavbar" aria-controls="mainnavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

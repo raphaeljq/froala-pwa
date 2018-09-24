@@ -128,7 +128,7 @@ const Home = () => (
       </div>
 
       <div class="col-12 col-md-6 ml-auto pt-5 pt-md-0">
-        <form>
+        <form name="think" netlify>
           <div class="row">
             <div class="col">
               <input type="text" class="form-control" placeholder="First name"/>
@@ -156,7 +156,7 @@ const Home = () => (
           </div>
           <div class="row mt-4">
             <div class="col">
-              <button type="submit" class="btn">Submit</button>
+              <input type="submit" class="btn" value='Submit'/>
             </div>
           </div>
         </form>

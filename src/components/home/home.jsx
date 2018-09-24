@@ -128,7 +128,7 @@ const Home = () => (
       </div>
 
       <div class="col-12 col-md-6 ml-auto pt-5 pt-md-0">
-        <form name="think" netlify>
+        <form method="post" name="think" netlify>
           <div class="row">
             <div class="col">
               <input type="text" class="form-control" placeholder="First name"/>
